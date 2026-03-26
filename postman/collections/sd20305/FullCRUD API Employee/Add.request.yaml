@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{baseUrl}}/api/employees"
+method: POST
+body:
+  type: json
+  content: " {\r
+
+    \        \"name\": \"D\",\r
+
+    \        \"email\": \"d@example.com\",\r
+
+    \        \"departmentName\": \"Phòng ban Môi trường\",\r
+
+    \        \"salary\": 100000000.00\r
+
+    \ } "
+auth:
+  type: noauth
+order: 3000

@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos/:id"
+method: DELETE
+pathVariables:
+  id: "{{defaultId}}"
+auth:
+  type: noauth
+order: 5000

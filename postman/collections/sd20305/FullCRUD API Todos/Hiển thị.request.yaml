@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos"
+method: GET
+auth:
+  type: noauth
+order: 4000

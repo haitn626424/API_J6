@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update
+url: "{{baseUrl}}/api/employees/:id"
+method: PUT
+headers:
+  Content-Type: application/json
+pathVariables:
+  id: "{{defaultId}}"
+body:
+  type: json
+  content: |-
+    {
+            "name": "cập nhật",
+            "email": "cn@gmail.com",
+            "departmentName": "Phòng ban 1",
+            "salary": 900000000.00
+     } 
+auth:
+  type: noauth
+order: 4000

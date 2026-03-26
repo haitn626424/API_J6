@@ -1,0 +1,13 @@
+$kind: http-request
+url: "{{baseUrl}}/api/employees/:id"
+method: GET
+headers:
+  Content-Type: application/json
+pathVariables:
+  id: "{{defaultId}}"
+body:
+  type: text
+  content: ""
+auth:
+  type: noauth
+order: 2000

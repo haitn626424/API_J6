@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos/:id"
+method: GET
+pathVariables:
+  id: "{{defaultId}}"
+auth:
+  type: noauth
+order: 2000

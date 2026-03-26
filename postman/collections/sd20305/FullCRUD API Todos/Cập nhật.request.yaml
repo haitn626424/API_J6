@@ -1,0 +1,20 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos/:id"
+method: PUT
+headers:
+  Content-Type: application/json
+pathVariables:
+  id: "{{defaultId}}"
+body:
+  type: json
+  content: |-
+    {
+            "id" : "{{defaultId}}",
+            "title": "1",
+            "description": "m",
+            "completed": false
+
+    }
+auth:
+  type: noauth
+order: 1000

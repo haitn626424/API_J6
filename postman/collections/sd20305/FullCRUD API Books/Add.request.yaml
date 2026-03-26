@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{baseUrl}}/api/books"
+method: POST
+body:
+  type: json
+  content: " {\r
+
+    \    \r
+
+    \        \"title\": \"kk\",\r
+
+    \        \"author\": \"hahah\",\r
+
+    \        \"price\": 0\r
+
+    \ }       "
+auth:
+  type: noauth
+order: 3000

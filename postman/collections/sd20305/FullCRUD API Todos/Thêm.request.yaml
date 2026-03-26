@@ -1,0 +1,23 @@
+$kind: http-request
+url: "{{baseUrl}}/api/todos"
+method: POST
+headers:
+  Content-Type: application/json
+queryParams:
+  - key: ""
+    value: null
+    disabled: true
+body:
+  type: text
+  content: "{\r
+
+    \        \"title\": \"huhu\",\r
+
+    \        \"description\": \"hahaa\",\r
+
+    \        \"completed\": false\r
+
+    \    }"
+auth:
+  type: noauth
+order: 3000
