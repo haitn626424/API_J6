@@ -1,15 +1,9 @@
 $kind: http-request
-url: "{{baseUrl}}/api/books"
+url: "{{baseUrl}}/api/users"
 method: GET
 body:
   type: json
-  content: " {\r
-
-    \    \"username\" : \"user\",\r
-
-    \    \"password\" : \"123456\"\r
-
-    \ }"
+  content: " "
 auth:
   type: basic
   credentials:

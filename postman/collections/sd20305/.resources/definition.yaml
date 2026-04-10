@@ -1,4 +1,5 @@
 $kind: collection
+name: sd20305
 variables:
   baseUrl: ""
   defaultId: ""

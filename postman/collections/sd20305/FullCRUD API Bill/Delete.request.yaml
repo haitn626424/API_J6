@@ -1,0 +1,8 @@
+$kind: http-request
+name: Delete
+url: "{{baseUrl}}/api/donhangs/:id"
+method: DELETE
+pathVariables:
+  - key: id
+    value: "{{defaultId}}"
+order: 4464755519491278

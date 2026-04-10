@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{baseUrl}}/api/students"
+method: POST
+body:
+  type: json
+  content: " {\r
+
+    \        \"name\": \"jaja\",\r
+
+    \        \"email\": \"D@gamil.com\",\r
+
+    \        \"phone\": \"0123456789\"\r
+
+    }"
+auth:
+  type: noauth
+order: 3000

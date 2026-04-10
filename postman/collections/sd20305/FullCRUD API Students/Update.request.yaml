@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{baseUrl}}/api/students/:id"
+method: PUT
+headers:
+  Content-Type: application/json
+pathVariables:
+  id: "{{defaultId}}"
+body:
+  type: text
+  content: |-
+    {
+            "name": "B",
+            "email": "a@gamil.com",
+            "phone": "0111111111"
+        }
+auth:
+  type: noauth
+order: 4000

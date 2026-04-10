@@ -1,4 +1,5 @@
 $kind: http-request
+name: Add
 url: "{{baseUrl}}/api/books"
 method: POST
 body:
@@ -15,5 +16,7 @@ body:
 
     \ }       "
 auth:
-  type: noauth
+  type: bearer
+  credentials:
+    token: eyJraWQiOiI4ZmQ1Y2QwYy1iNmRkLTRiYTctODI5Ny1jMGVmYjliNTQ5YjMiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiYWRtaW4iLCJleHAiOjE3NzU1NTMxNzMsImlhdCI6MTc3NTU1MTM3Mywic2NvcGUiOiJST0xFX0FETUlOIn0.JzOb0h8l8gxj8x2wWNq9dv6lomev8P-53OCm8S8qhZjQrEu13YJMn8_AVALwZ8pO_7OqjZhiymvJP_SYdNlxz5c64M8hud_-yxH2Jt-6DA9d2aZ2CbtM67fEzysRbDQt_LWP2vYEtyoZyfC5CaR5FWPoANfNn_kADxIZTJfqszSC87L7eOuyZgXlZu27Vol4IZpMZGAnKMpf2FN_V1yr8Lu4WkT02-rpoZ1jrCPlQQMGXE_nYSJ6Ao9gVAJZSAPi8PvPaaOUIDCpyqeqw3aQ8TpMm_B7uinmDeZyEWxdZz460U3lea8vjoZAAOQpkSrc8_02OIIAINWzrdTzadxApA
 order: 3000

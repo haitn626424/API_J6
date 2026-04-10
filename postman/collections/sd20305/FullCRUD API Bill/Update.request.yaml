@@ -1,0 +1,27 @@
+$kind: http-request
+name: Update
+url: "{{baseUrl}}/api/donhangs/:id"
+method: PUT
+pathVariables:
+  - key: id
+    value: "{{defaultId}}"
+body:
+  type: json
+  content: "{\r
+
+    \        \"tongTien\": 0,\r
+
+    \        \"tenKhachHang\": \"Tran Thi B\",\r
+
+    \        \"diaChiGiao\": \"Ha Noi\",\r
+
+    \        \"soDienThoaiGiao\":\"0134567890\",\r
+
+    \        \"trangThai\":\"Đang xử lý\",\r
+
+    \        \"nguoiXuLi\":\"admin\",\r
+
+    \        \"ghiChu\":\"Khách hàng cần giao hàng vào ngày 20/10/2023\"\r
+
+    }"
+order: 4431142872787221

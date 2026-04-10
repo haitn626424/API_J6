@@ -1,0 +1,5 @@
+$kind: http-request
+name: FindAll
+url: "{{baseUrl}}/api/donhangs"
+method: GET
+order: 1775642200588

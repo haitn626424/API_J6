@@ -1,0 +1,26 @@
+$kind: http-request
+url: "{{baseUrl}}/api/users"
+method: POST
+body:
+  type: json
+  content: " {\r
+
+    \        \"name\": \"MaMa\",\r
+
+    \        \"username\": \"HUHU\",\r
+
+    \        \"password\": \"hahaa\",\r
+
+    \        \"role\": \"ROLE_USER\",\r
+
+    \        \"email\": \"MAMA@gmail.com\"\r
+
+    \    \r
+
+    }"
+auth:
+  type: basic
+  credentials:
+    username: user
+    password: "123456"
+order: 3000

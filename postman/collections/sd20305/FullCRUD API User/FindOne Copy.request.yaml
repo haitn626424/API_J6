@@ -1,21 +1,18 @@
 $kind: http-request
-url: "{{baseUrl}}/api/books/:id"
-method: PUT
+name: FindOne Copy
+url: "{{baseUrl}}/api/users/:id"
+method: GET
 headers:
   Content-Type: application/json
 pathVariables:
   id: "{{defaultId}}"
+  "": ""
 body:
   type: text
-  content: |-
-    {
-            "title": "haha" ,
-            "author":"kaka",
-            "price": 10
-        }
+  content: ""
 auth:
   type: basic
   credentials:
     username: admin
     password: "123456"
-order: 4000
+order: 2000

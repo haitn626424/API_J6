@@ -1,9 +1,12 @@
 $kind: http-request
-name: Hiển thị
-url: "{{baseUrl}}/api/todos"
-method: GET
+name: New Request
+url: "{{baseUrl}}/api/authenticate"
+method: POST
+body:
+  type: json
+  content: ""
 auth:
   type: bearer
   credentials:
     token: eyJraWQiOiIyZjVlZmFkMi1iMmE1LTQ1MmEtOGExYS00YTEyNjI0NjA3MzYiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiYWRtaW4iLCJleHAiOjE3NzU2NjkzMDksImlhdCI6MTc3NTY2NzUwOSwic2NvcGUiOiJST0xFX0FETUlOIn0.LEd0HUvg5OzN88EqBzgynyWv34F860cFgI0P6I2dStdh_J9Fmo_hPDJ_xNhpq-eE9VNgmVJVQwV-tG-Hqva71OggCg34NgR_lPsz90wGUA6nxQdzQQNZzG9akHG_QnDJgLCAlii1Mq1SibPcUkjfupcXsCWmmWnYj04rAw-XXJzSffNg7I9ziYM5BD1pmK2K6CqXzAjAjTNU0cIFpfWyG1dtNuUp7UhN9MvNvdV4CH0E_6EDuv_yhHQpv9gMi4OP04q9M5S0C1Y2l3D0hMiDCuXT-BRsW92UlWkM0-liubkxQNuXTikE4EF_bCrlmX6XwdhXdTHEgB9uHyaeKuF5kA
-order: 4000
+order: 1775551346082

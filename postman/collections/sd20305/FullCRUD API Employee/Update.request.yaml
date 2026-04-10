@@ -1,5 +1,4 @@
 $kind: http-request
-name: Update
 url: "{{baseUrl}}/api/employees/:id"
 method: PUT
 headers:
@@ -7,7 +6,7 @@ headers:
 pathVariables:
   id: "{{defaultId}}"
 body:
-  type: json
+  type: text
   content: |-
     {
             "name": "cập nhật",

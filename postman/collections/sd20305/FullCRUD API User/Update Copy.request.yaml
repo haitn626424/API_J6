@@ -1,0 +1,23 @@
+$kind: http-request
+url: "{{baseUrl}}/api/users/:id"
+method: PUT
+headers:
+  Content-Type: application/json
+pathVariables:
+  id: "{{defaultId}}"
+body:
+  type: text
+  content: |-
+    {
+            "name": "hai",
+            "username": "haiancomchua",
+            "email": "haichuaancom@gmail.com",
+            "password": "1234567890",
+            "role":"ROLE_ADMIN"
+        }
+auth:
+  type: basic
+  credentials:
+    username: user
+    password: "123456"
+order: 4000

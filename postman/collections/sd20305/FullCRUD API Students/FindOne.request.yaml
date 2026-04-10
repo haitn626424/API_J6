@@ -1,5 +1,5 @@
 $kind: http-request
-url: "{{baseUrl}}/api/books/:id"
+url: "{{baseUrl}}/api/students/:id"
 method: GET
 headers:
   Content-Type: application/json
@@ -9,8 +9,5 @@ body:
   type: text
   content: ""
 auth:
-  type: basic
-  credentials:
-    username: user
-    password: "123456"
+  type: noauth
 order: 2000

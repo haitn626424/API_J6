@@ -1,0 +1,8 @@
+$kind: http-request
+name: FindById
+url: "{{baseUrl}}/api/donhangs/:id"
+method: GET
+pathVariables:
+  - key: id
+    value: "{{defaultId}}"
+order: 4288912556714977
